@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.kidzee.Cat"
+    android:orientation="vertical"
+    android:background="@drawable/cat">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Who will Bell The Cat?"
+        android:layout_gravity="center"
+        android:textColor="#8a32e7"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif"
+        />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:textColor="#e20c0c"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:text="A rat and its big family were living in a baker's shop. They scraped the buns and cakes in the bakery. The baker tried his best to put an end to the nuisance of the rats. But all were in vain. At last he brought their real enemy-the cat to solve the problem. In the very next day the cat got some tiny rats for its breakfast. The rat family got worried of the loss of their dear ones.
+They arranged a meeting soon. They looked for an idea to escape from the cat. In the end, they decided to bell the cat. Then one of the elder rats asked them, who is ready to bell the cat? Nobody said yes.
+Instead they kept quiet."/></ScrollView>
+
+</LinearLayout>

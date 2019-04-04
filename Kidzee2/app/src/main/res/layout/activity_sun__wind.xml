@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.kidzee.Sun_Wind"
+    android:orientation="vertical"
+    android:background="@drawable/leaf2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Sun And The Wind"
+        android:layout_gravity="center"
+        android:textColor="#0e933f"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif"
+        />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:textColor="#7420ea"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:text=" It was fine sunny day. The air was cool and the weather was pleasant. We thought that we would be wasting such a nice day indoors. I contacted my friends and we all started on our bikes for a picnic. Full of excitement, we were singing and enjoying. While we were on half way suddenly it became dark and the clouds covered the sky. Before we could think of doing anything the clouds started thundering fiercely. . All our excitement vanished in the oblivion.We were completely soaked in the rain and so was our food. Everyone was sad and quiet like a stone. Then I thought why we should curse the nature. Rather we can enjoy this unexpected event. My friends agreed and we started bathing, playing and dancing in the rain.  While the people were running helter and skelter, we were enjoying time. .This is my most memorable, but unexpected picnic of my life."/>
+    </ScrollView>
+
+</LinearLayout>

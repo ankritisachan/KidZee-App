@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.kidzee.A_Hungry_Wolf"
+    android:orientation="vertical"
+    android:background="@drawable/wolf">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Hungry Wolf"
+        android:layout_gravity="center"
+        android:textColor="#fa000000"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif"
+        />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:textColor="#0a0a0a"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:text="Once, a wolf was very hungry. It looked for food here and there. But it couldn't get any. At last it found a loaf of bread and piece of meat in the hole of a tree.
+The hungry wolf squeezed into the hole. It ate all the food. It was a woodcutter's lunch. He was on his way back to the tree to have lunch. But he saw there was no food in the hole, instead, a wolf.
+On seeing the woodcutter, the wolf tried to get out of the hole. But it couldn't. Its tummy was swollen.
+The woodcutter caught the wolf and gave it nice beatings."/>
+    </ScrollView>
+</LinearLayout>

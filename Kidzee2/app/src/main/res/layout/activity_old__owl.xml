@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.kidzee.Old_Owl"
+    android:orientation="vertical"
+    android:background="@drawable/owl">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Wise Old Owl "
+        android:layout_gravity="center"
+        android:textColor="#fff04a"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif"
+        />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:textColor="#ffffff"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:text="There was an old owl that lived in an oak. Everyday he saw incidents happening around him. Yesterday he saw a boy helping an old man to carry a heavy basket. Today he saw a girl shouting at her mother. The more he saw the less he spoke.
+As he spoke less, he heard more. He heard people talking and telling stories. He heard a woman saying that an elephant jumped over a fence. He also heard a man saying that he had never made a mistake.
+The old owl had seen and heard about what happened to people. Some became better and some became worse. But the old owl had become wiser each and every day.  "/>
+    </ScrollView>
+
+</LinearLayout>
